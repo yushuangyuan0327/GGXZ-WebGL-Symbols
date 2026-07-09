@@ -1,0 +1,1017 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d65abecbf06b47f28d5ea221aece738, type: 3}
+  m_Name: AssetConfigController
+  m_EditorClassIdentifier: 
+  RootVersion: v1_4_1
+  IOSRootVersion: v1_0_10
+  WebGLRootVersion: v1_4_36
+  VersionCode: 67
+  IOSVersionCode: 1
+  WebGLVersionCode: 65
+  WechatVersionCode: 1.0.146
+  UseAssetBundle: 0
+  CopyBundleToDownloadPath: 1
+  ResPubLibraryUseAssetBundle: 0
+  Groups:
+  - GroupName: Data
+    Version: v1_0_0
+    GroupIndex: 0
+    Paths:
+    - Path: DataConfigs/LocaleConfig
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/LocaleConfig
+      DownloadType: 0
+    - Path: DataConfigs/Room
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Room
+      DownloadType: 0
+    - Path: DataConfigs/Global
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Global
+      DownloadType: 0
+    - Path: DataConfigs/UserGroup
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/UserGroup
+      DownloadType: 0
+    - Path: DataConfigs/Merge
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Merge
+      DownloadType: 0
+    - Path: DataConfigs/Task
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Task
+      DownloadType: 0
+    - Path: DataConfigs/Faq
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Faq
+      DownloadType: 0
+    - Path: Patches
+      InInitialPacket: 1
+      FromOutside: 0
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Patches
+      DownloadType: 0
+    - Path: DataConfigs/NoteBook
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/NoteBook
+      DownloadType: 0
+    - Path: DataConfigs/World
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/World
+      DownloadType: 0
+    - Path: DataConfigs/Activity
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalData
+      PathOutside: UI/Data/Activity
+      DownloadType: 0
+    UpdateWholeAB: 1
+  - GroupName: LocalSpriteAtlas
+    Version: v1_0_0
+    GroupIndex: 3
+    Paths:
+    - Path: SpriteAtlas/CoomonAtlas/CoomonAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/CoomonAtlas/CoomonAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/ShopAtlas/ShopAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ShopAtlas/ShopAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/RoomAtlas/RoomAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/RoomAtlas/RoomAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/MergeAtlas/MergeAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/MergeAtlas/MergeAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/MergeIconAtlas/MergeIconAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/MergeIconAtlas/MergeIconAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/FoodMenuAtlas/FoodMenuAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/FoodMenuAtlas/FoodMenuAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/NpcHeadAtlas/NpcHeadAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/NpcHeadAtlas/NpcHeadAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/StoreAtlas/StoreAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/StoreAtlas/StoreAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/NoteBookAtlas/NoteBookAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/NoteBookAtlas/NoteBookAtlas
+      DownloadType: 7
+    - Path: SpriteAtlas/WorldAtlas/WorldAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/WorldAtlas/WorldAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/ActivityAtlas/DailyChallengeAtlas/DailyChallengeAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/DailyChallengeAtlas/DailyChallengeAtlas
+      DownloadType: 3
+    - Path: SpriteAtlas/ActivityAtlas/BattlePassAtlas/BattlePassAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/BattlePassAtlas/BattlePassAtlas
+      DownloadType: 11
+    - Path: SpriteAtlas/ActivityAtlas/BlueStarAtlas/BlueStarAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/BlueStarAtlas/BlueStarAtlas
+      DownloadType: 10
+    - Path: SpriteAtlas/ActivityAtlas/HippoAtlas/HippoAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/HippoAtlas/HippoAtlas
+      DownloadType: 21
+    - Path: SpriteAtlas/ActivityAtlas/BlendPackAtlas/BlendPackAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/BlendPackAtlas/BlendPackAtlas
+      DownloadType: 10
+    - Path: SpriteAtlas/ActivityAtlas/FirstPurchaseAtlas/FirstPurchaseAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/FirstPurchaseAtlas/FirstPurchaseAtlas
+      DownloadType: 6
+    - Path: SpriteAtlas/ActivityAtlas/IcebreakingPackAtlas/IcebreakingPackAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/IcebreakingPackAtlas/IcebreakingPackAtlas
+      DownloadType: 999
+    - Path: SpriteAtlas/ActivityAtlas/MasterCardAtlas/MasterCardAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/MasterCardAtlas/MasterCardAtlas
+      DownloadType: 3
+    - Path: SpriteAtlas/BarbieGoAtlas/BarbieGoAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/BarbieGoAtlas/BarbieGoAtlas
+      DownloadType: 11
+    - Path: SpriteAtlas/ActivityAtlas/BearBankAtlas/BearBankAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/BearBankAtlas/BearBankAtlas
+      DownloadType: 12
+    - Path: SpriteAtlas/ActivityAtlas/FourSeasonAtlas/FourSeasonAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/FourSeasonAtlas/FourSeasonAtlas
+      DownloadType: 9
+    - Path: SpriteAtlas/ActivityAtlas/TravelBagAtlas/TravelBagAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/TravelBagAtlas/TravelBagAtlas
+      DownloadType: 19
+    - Path: SpriteAtlas/MuseumAtlas/MuseumAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/MuseumAtlas/MuseumAtlas
+      DownloadType: 999
+    - Path: SpriteAtlas/ActivityAtlas/NewItemAtlas/NewItemAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/NewItemAtlas/NewItemAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/ActivityAtlas/MusicFestivalAtlas/MusicFestivalAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/MusicFestivalAtlas/MusicFestivalAtlas
+      DownloadType: 19
+    - Path: SpriteAtlas/WorldV2Atlas/WorldV2Atlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/WorldV2Atlas/WorldV2Atlas
+      DownloadType: 0
+    - Path: SpriteAtlas/ActivityAtlas/TakeOutAtlas/TakeOutAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/TakeOutAtlas/TakeOutAtlas
+      DownloadType: 12
+    - Path: SpriteAtlas/ActivityAtlas/EnergyPackAtlas/EnergyPackAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/EnergyPackAtlas/EnergyPackAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/ActivityAtlas/PKAtlas/PKAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/PKAtlas/PKAtlas
+      DownloadType: 13
+    - Path: SpriteAtlas/ActivityAtlas/MeetingAtlas/MeetingAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/MeetingAtlas/MeetingAtlas
+      DownloadType: 2
+    - Path: SpriteAtlas/ActivityAtlas/BingoAtlas/BingoAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/BingoAtlas/BingoAtlas
+      DownloadType: 23
+    - Path: SpriteAtlas/WorldUIAtlas/WorldUIAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/WorldUIAtlas/WorldUIAtlas
+      DownloadType: 0
+    - Path: SpriteAtlas/ActivityAtlas/BattlePassNewAtlas/BattlePassNewAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/BattlePassNewAtlas/BattlePassNewAtlas
+      DownloadType: 11
+    - Path: SpriteAtlas/ActivityAtlas/PuzzleAtlas/PuzzleAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/PuzzleAtlas/PuzzleAtlas
+      DownloadType: 13
+    - Path: SpriteAtlas/ActivityAtlas/StampAtlas/StampAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/StampAtlas/StampAtlas
+      DownloadType: 10
+    - Path: SpriteAtlas/ActivityAtlas/MagicTraningAtlas/MagicTraningAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/MagicTraningAtlas/MagicTraningAtlas
+      DownloadType: 13
+    - Path: SpriteAtlas/ActivityAtlas/MergeCountAtlas/MergeCountAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/MergeCountAtlas/MergeCountAtlas
+      DownloadType: 2
+    - Path: SpriteAtlas/ActivityAtlas/CCEUIAtlas/CCEUIAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/CCEUIAtlas/CCEUIAtlas
+      DownloadType: 8
+    - Path: SpriteAtlas/ActivityAtlas/CCES1Atlas/CCES1Atlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/CCES1Atlas/CCES1Atlas
+      DownloadType: 8
+    - Path: SpriteAtlas/ActivityAtlas/CCES2Atlas/CCES2Atlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/CCES2Atlas/CCES2Atlas
+      DownloadType: 8
+    - Path: SpriteAtlas/ActivityAtlas/PlanetRoamAtlas/PlanetRoamAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/PlanetRoamAtlas/PlanetRoamAtlas
+      DownloadType: 19
+    - Path: SpriteAtlas/ActivityAtlas/FishWithYouAtlas/FishWithYouAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/FishWithYouAtlas/FishWithYouAtlas
+      DownloadType: 8
+    - Path: SpriteAtlas/ActivityAtlas/SuperBoostAtlas/SuperBoostAtlas
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: SpriteAtlas/ActivityAtlas/SuperBoostAtlas/SuperBoostAtlas
+      DownloadType: 10
+    UpdateWholeAB: 1
+  - GroupName: UI
+    Version: v1_0_0
+    GroupIndex: 2
+    Paths:
+    - Path: Fonts
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: Fonts
+      DownloadType: 0
+    - Path: Materials/UIMaterials
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/materials/UIMaterials
+      DownloadType: -1
+    - Path: Prefabs/Home
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Home
+      DownloadType: 0
+    - Path: Prefabs/Common
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Common
+      DownloadType: 0
+    - Path: Prefabs/Shop
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Shop
+      DownloadType: 0
+    - Path: Prefabs/Effects
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Effects
+      DownloadType: -1
+    - Path: Audios/Sounds
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Audios/Sounds
+      DownloadType: -1
+    - Path: Audios/BGM
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Audios/BGM
+      DownloadType: -1
+    - Path: Audios/World
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Audios/World
+      DownloadType: -1
+    - Path: Prefabs/Merge
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Merge
+      DownloadType: 0
+    - Path: Prefabs/PortraitSpine
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/PortraitSpine
+      DownloadType: 0
+    - Path: Prefabs/Npc
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Npc
+      DownloadType: 0
+    - Path: Prefabs/BuyResources
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/BuyResources
+      DownloadType: 0
+    - Path: Prefabs/DailyChallenge
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/DailyChallenge
+      DownloadType: 3
+    - Path: Prefabs/DailyLogin
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/DailyLogin
+      DownloadType: 9
+    - Path: Prefabs/DailyRV
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/DailyRV
+      DownloadType: 6
+    - Path: Prefabs/GameProgress
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/GameProgress
+      DownloadType: 999
+    - Path: Prefabs/GameSet
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/GameSet
+      DownloadType: 0
+    - Path: Prefabs/MergeCount
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/MergeCount
+      DownloadType: 2
+    - Path: Prefabs/MysteryGift
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/MysteryGift
+      DownloadType: 999
+    - Path: Prefabs/Rating
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Rating
+      DownloadType: 0
+    - Path: Prefabs/SideReward
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/SideReward
+      DownloadType: 999
+    - Path: Prefabs/NoteBook
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/NoteBook
+      DownloadType: 7
+    - Path: Prefabs/World
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/World
+      DownloadType: 0
+    - Path: Prefabs/BattlePass
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/BattlePass
+      DownloadType: 11
+    - Path: Prefabs/CollectBlueStar
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/CollectBlueStar
+      DownloadType: 10
+    - Path: Prefabs/Mail
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Mail
+      DownloadType: 0
+    - Path: Prefabs/Hippo
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Hippo
+      DownloadType: 21
+    - Path: Prefabs/BlendPack
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/BlendPack
+      DownloadType: 10
+    - Path: Prefabs/FirstPurchase
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/FirstPurchase
+      DownloadType: 6
+    - Path: Prefabs/IcebreakingPack
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/IcebreakingPack
+      DownloadType: 999
+    - Path: Prefabs/MasterCard
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/MasterCard
+      DownloadType: 3
+    - Path: Prefabs/FourSeason
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/FourSeason
+      DownloadType: 9
+    - Path: Prefabs/BearBank
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/BearBank
+      DownloadType: 12
+    - Path: Prefabs/TravelBag
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/TravelBag
+      DownloadType: 19
+    - Path: Prefabs/BarbieGo
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/BarbieGo
+      DownloadType: 11
+    - Path: Prefabs/NpcBarbieGo
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/NpcBarbieGo
+      DownloadType: 7
+    - Path: Prefabs/Museum
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Museum
+      DownloadType: 999
+    - Path: Prefabs/MusicFestival
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/MusicFestival
+      DownloadType: 19
+    - Path: Prefabs/WorldMap
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/WorldMap
+      DownloadType: 0
+    - Path: Prefabs/Rank
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Rank
+      DownloadType: 3
+    - Path: Prefabs/TaskItemBox
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/TaskItemBox
+      DownloadType: 0
+    - Path: Prefabs/FantasticCircus
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/FantasticCircus
+      DownloadType: 6
+    - Path: Prefabs/TakeOut
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/TakeOut
+      DownloadType: 12
+    - Path: Prefabs/EnergyPack
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/EnergyPack
+      DownloadType: 0
+    - Path: Prefabs/PK
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/PK
+      DownloadType: 13
+    - Path: Prefabs/Meeting
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Meeting
+      DownloadType: 2
+    - Path: Prefabs/Bingo
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Bingo
+      DownloadType: 23
+    - Path: Prefabs/LackRewards
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/LackRewards
+      DownloadType: 0
+    - Path: Prefabs/RoomCommon
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/RoomCommon
+      DownloadType: 0
+    - Path: Prefabs/FourSeasonNew
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/FourSeasonNew
+      DownloadType: 9
+    - Path: Prefabs/BattlePassNew
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/BattlePassNew
+      DownloadType: 11
+    - Path: Prefabs/Puzzle
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Puzzle
+      DownloadType: 13
+    - Path: Prefabs/ActivityNPCTask
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/ActivityNPCTask
+      DownloadType: 0
+    - Path: Prefabs/Stamp
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/Stamp
+      DownloadType: 10
+    - Path: Prefabs/MagicTraining
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/MagicTraining
+      DownloadType: 13
+    - Path: Prefabs/CollectibleCardEvent
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/CollectibleCardEvent
+      DownloadType: 8
+    - Path: Prefabs/PlanetRoam
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/PlanetRoam
+      DownloadType: 19
+    - Path: Prefabs/FishWithYou
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/FishWithYou
+      DownloadType: 8
+    - Path: Prefabs/SuperBoost
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: UI
+      PathOutside: UI/Prefabs/SuperBoost
+      DownloadType: 10
+    UpdateWholeAB: 1
+  - GroupName: Scene
+    Version: v1_0_0
+    GroupIndex: 4
+    Paths:
+    - Path: RoomRes/Prefabs/Room/Room79016
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room79016
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10001
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10001
+      DownloadType: 0
+    - Path: RoomRes/Prefabs/Room/Room10003
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10003
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10006
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10006
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10007
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10007
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10005
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10005
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10004
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10004
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10008
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10008
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room10009
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room10009
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room11001
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room11001
+      DownloadType: 99
+    - Path: RoomRes/Prefabs/Room/Room78902
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Scene
+      PathOutside: Prefabs/Room/Room78902
+      DownloadType: 99
+    UpdateWholeAB: 0
+  - GroupName: RoomSounds
+    Version: v1_0_0
+    GroupIndex: 5
+    Paths:
+    - Path: Audios/SoundRoom
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: SoundRoom
+      PathOutside: Audios/SoundRoom
+      DownloadType: 1
+    UpdateWholeAB: 1
+  - GroupName: RemoteConfig
+    Version: v1_0_0
+    GroupIndex: 6
+    Paths:
+    - Path: RoomRes/Configs/Room/RoomData79016
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData79016
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10001
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10001
+      DownloadType: 0
+    - Path: RoomRes/Configs/Room/RoomData10003
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10003
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10005
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10005
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10006
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10006
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10007
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10007
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10004
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10004
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10008
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10008
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData10009
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData10009
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData11001
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData11001
+      DownloadType: 99
+    - Path: RoomRes/Configs/Room/RoomData78902
+      InInitialPacket: 0
+      FromOutside: 1
+      NameOutside: Home2D
+      GroupOutside: Data
+      PathOutside: Configs/Room/RoomData78902
+      DownloadType: 99
+    UpdateWholeAB: 0
+  ActivityResPaths: []
+  ProjectPretreatmentDelegate: {fileID: 0}
+  EnhancedEncryptionSecret: 55ccde5a7cb81567
