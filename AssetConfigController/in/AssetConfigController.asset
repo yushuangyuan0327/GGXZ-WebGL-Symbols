@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RootVersion: v1_4_1
   IOSRootVersion: v1_0_10
-  WebGLRootVersion: v1_4_36
+  WebGLRootVersion: v1_4_37
   VersionCode: 67
   IOSVersionCode: 1
-  WebGLVersionCode: 65
-  WechatVersionCode: 1.0.146
+  WebGLVersionCode: 66
+  WechatVersionCode: 1.0.148
   UseAssetBundle: 0
   CopyBundleToDownloadPath: 1
   ResPubLibraryUseAssetBundle: 0
@@ -410,6 +410,34 @@ MonoBehaviour:
       GroupOutside: LocalSpriteAtlas
       PathOutside: SpriteAtlas/ActivityAtlas/SuperBoostAtlas/SuperBoostAtlas
       DownloadType: 10
+    - Path: i18n/LocaleImage_en/Hd
+      InInitialPacket: 1
+      FromOutside: 0
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: i18n/LocaleImage_en/Hd
+      DownloadType: 0
+    - Path: i18n/LocaleImage_zh/Hd
+      InInitialPacket: 1
+      FromOutside: 0
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: i18n/LocaleImage_zh/Hd
+      DownloadType: 0
+    - Path: i18n/LocaleSpine_en
+      InInitialPacket: 1
+      FromOutside: 0
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: i18n/LocaleSpine_en
+      DownloadType: 0
+    - Path: i18n/LocaleSpine_zh
+      InInitialPacket: 1
+      FromOutside: 0
+      NameOutside: Home2D
+      GroupOutside: LocalSpriteAtlas
+      PathOutside: i18n/LocaleSpine_zh
+      DownloadType: 0
     UpdateWholeAB: 1
   - GroupName: UI
     Version: v1_0_0
